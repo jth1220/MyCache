@@ -16,3 +16,7 @@
 * 支持之定义map实现策略
 * 支持过期时间设定
 * 支持自定义淘汰策略
+  * FIFO、LRU(LRU2、LRU2Q)、LFU、Clock<br>
+* 支持自定义删除监听器
+* 支持load初始化和persist持久化
+  * RDB、AOF、AOF混合RDB
